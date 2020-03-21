@@ -27,6 +27,16 @@ echo 'Installing Intellij Idea Ultimate'
 echo '*********************************'
 sudo snap install intellij-idea-ultimate --classic
 
+echo '*****************'
+echo 'Installing Cheese'
+echo '*****************'
+sudo apt install cheese
+
+echo '*****************'
+echo 'Installing Gpaste'
+echo '*****************'
+sudo apt install gpaste
+
 echo '**************'
 echo 'Installing ZSH'
 echo '**************'
