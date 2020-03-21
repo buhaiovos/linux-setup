@@ -37,6 +37,11 @@ echo 'Installing Gpaste'
 echo '*****************'
 sudo apt install gpaste
 
+echo '*****************'
+echo 'Installing Httpie'
+echo '*****************'
+sudo apt install httpie
+
 echo '**************'
 echo 'Installing ZSH'
 echo '**************'
