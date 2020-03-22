@@ -42,6 +42,22 @@ echo 'Installing Httpie'
 echo '*****************'
 sudo apt install httpie
 
+echo '******************'
+echo 'Installing Postman'
+echo '******************'
+sudo snap install Postman
+
+echo '*****************************'
+echo 'Installing Visual Studio Code'
+echo '*****************************'
+sudo snap install code
+
+echo '*****************'
+echo 'Installing NodeJS'
+echo '*****************'
+curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
 echo '**************'
 echo 'Installing ZSH'
 echo '**************'
