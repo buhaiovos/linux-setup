@@ -43,11 +43,6 @@ echo '*****************'
 sudo apt install cheese
 
 echo '*****************'
-echo 'Installing Gpaste'
-echo '*****************'
-sudo apt install gpaste
-
-echo '*****************'
 echo 'Installing Httpie'
 echo '*****************'
 sudo apt install httpie
@@ -118,3 +113,10 @@ sudo apt install zsh
 zsh --version
 chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+echo '******************************'
+echo 'Installing Clipboard Indicator'
+echo '******************************'
+
+git clone https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator.git ~/.local/share/gnome-shell/extensions/clipboard-indicator@tudmotu.com
+echo 'Do Alt+F2 and \'r\' to restart the shell'
